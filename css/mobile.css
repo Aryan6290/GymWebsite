@@ -1,0 +1,60 @@
+@media (min-width: 500px) {
+  body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  #navbar {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background: #030303;
+  }
+  #navbar .logo {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  #navbar ul li a {
+    font-size: 1rem;
+  }
+  .showcase {
+    margin-top: 5rem;
+  }
+  #features {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #features .feature-img img {
+    height: 30%;
+    width: 63%;
+  }
+  #features .feature-info {
+    display: block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  #team .items {
+    display: flex;
+    flex-direction: column;
+  }
+  #team {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  #team .btn {
+    margin: auto;
+    width: 50%;
+  }
+  #about .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  #about .item {
+    margin-bottom: 2rem;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -5,6 +5,16 @@
   font-family: "Poppins", sans-serif;
   line-height: 1.4;
 }
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
 /* Utility */
 .heading-main {
   font-size: 4rem;
@@ -65,6 +75,7 @@
 }
 
 #navbar {
+  width: 100vw;
   font-family: "Montserrat", sans-serif;
   padding: 1rem;
   position: sticky;
