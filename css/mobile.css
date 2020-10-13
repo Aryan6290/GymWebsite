@@ -1,70 +1,95 @@
-@media (min-width: 300px) {
-  body {
-    overflow-y: scroll;
-    overflow-x: hidden;
-  }
-  #navbar {
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    background: #030303;
-  }
-  #navbar .logo {
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-  #navbar ul li a {
-    font-size: 1rem;
-  }
-  .showcase {
-    margin-top: 5rem;
-  }
-  #features {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  #features .feature-img img {
-    height: 30%;
-    width: 63%;
-  }
-  #features .feature-info {
-    display: block;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  #team .items {
-    display: flex;
-    flex-direction: column;
-  }
-  #team {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-  #team .btn {
-    margin: auto;
-    width: 50%;
-  }
-  #about .cards {
-    display: flex;
-    flex-direction: column;
-  }
-  #about .item {
-    margin-bottom: 2rem;
-  }
-  #about p {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .contact {
-    display: flex;
-    flex-direction: column;
-  }
-  #contact .item i {
-    justify-self: left;
-  }
-  #footer i {
-    margin-bottom: 1rem;
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
+#navbar {
+  width: 100%;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  background: #030303;
+}
+#navbar .logo {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#navbar ul {
+  justify-content: left;
+}
+#navbar ul li a {
+  font-size: 1rem;
+  justify-content: start;
+}
+.showcase {
+  width: 100%;
+  margin-top: 5rem;
+}
+.color-overlay {
+  width: 100%;
+}
+#features {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+#features .feature-img img {
+  height: 30%;
+  width: 63%;
+}
+#features .feature-info {
+  display: block;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+#team .items {
+  display: flex;
+  flex-direction: column;
+}
+#team {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#team .btn {
+  margin: auto;
+  width: 50%;
+}
+#about {
+  width: 100%;
+}
+#about .cards {
+  display: flex;
+  flex-direction: column;
+}
+#about .item {
+  margin-bottom: 2rem;
+}
+#about p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+#contact .item i {
+  justify-self: left;
+}
+#footer i {
+  margin-bottom: 1rem;
+}
+#contact {
+  width: 100%;
+}
+#footer {
+  width: 100%;
+}
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
