@@ -1,4 +1,4 @@
-@media (min-width: 500px) {
+@media (min-width: 300px) {
   body {
     overflow-y: scroll;
     overflow-x: hidden;
@@ -60,5 +60,11 @@
   .contact {
     display: flex;
     flex-direction: column;
+  }
+  #contact .item i {
+    justify-self: left;
+  }
+  #footer i {
+    margin-bottom: 1rem;
   }
 }
