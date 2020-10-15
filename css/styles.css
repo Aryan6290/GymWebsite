@@ -91,6 +91,7 @@
   color: #f4f4f4;
 }
 #navbar ul {
+  margin-left: 2.5rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
